@@ -1,0 +1,294 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    color:#fff;
+    background:#333;
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top:25%;
+}
+
+.container{
+    width:1040px;
+    margin:40px auto;
+    overflow:auto;
+}
+
+.slider-inner{
+    width:1000px;
+    height:700px;
+    position:relative;
+    overflow:hidden;
+    float:left;
+    padding:3px;
+    border: 1px solid #666;
+}
+
+.slider-inner div{
+    display:none;
+    width:1000px;
+    height:700px;
+}
+
+.slider-inner div.active{
+    display:inline-block;
+}
+
+.prev,.next{
+    visibility: hidden;
+    float:left;
+    margin-top:30%;
+    cursor: pointer;
+}
+
+.prev{
+    position:relative;
+    margin-right:-45px;
+    z-index:100;
+}
+
+.next{
+    position:relative;
+    margin-left:-45px;
+    z-index:100;
+}
+.slide-1, .slide-2, .slide-3, .slide-4 {
+    background-image: url("images/slide1.jpg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slide-1 {
+    background-image: url("images/slide1.jpg");
+    text-align: center;
+}
+
+.slide h1 {
+    padding-right: 50px;
+}
+
+h1 > span {
+    color: #48b1ff;
+    font-size: 6rem;
+}
+.tag {
+    position: absolute;
+    display: inline-block;
+    font-size: 2rem;
+    border-radius: 50%;
+    background-color: white;
+    bottom: 50.5%;
+}
+h1 > span:last-of-type {
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    left: 68.5%;
+    bottom: 49%;
+}
+.meet-mee {
+    color: white;
+    font-size: 2rem;
+    background-color:  #48b1ff;
+    border: 1px solid #48b1ff;
+    border-radius: 5px;
+    margin: auto;
+    outline: none;
+}
+.meet-mee:hover {
+    color: #48b1ff;
+    font-size: 2rem;
+    background-color:  white;
+    border: 1px solid white;
+    transition: 1s;
+}
+
+.slide-2 p {
+    font-size: 2rem;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.slide-2 p:first-of-type {
+    color: #48b1ff;
+    background-color:  white;
+    border: 1px solid white;
+    animation-duration: 1s;
+    animation-name: slideIn;
+}
+
+.slide-2 p:nth-of-type(2) {
+    color: white;
+    background-color:  #48b1ff;
+    border: 1px solid #48b1ff;
+    position: absolute;
+    left: 60%;
+    bottom: 10%;
+    animation-duration: 2s;
+    animation-name: slideIn;
+}
+
+.slide-2 p:nth-of-type(3) {
+    color: white;
+    background-color:   #48b1ff;
+    border: 1px solid  #48b1ff;
+    position: absolute;
+    left: 30%;
+    bottom: 48%;
+    animation-duration: 3s;
+    animation-name: slideIn;
+}
+
+.slide-2 p:nth-of-type(4) {
+    color: #48b1ff;
+    background-color:  white;
+    border: 1px solid white;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    animation-duration: 4s;
+    animation-name: slideIn;
+}
+
+.slide-2 p:last-of-type {
+    color: #48b1ff;
+    background-color:  white;
+    border: 1px solid white;
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+    animation-duration: 2s;
+    animation-name: slideIn;
+}
+
+@keyframes slideIn {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+.slide-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+.slide-3 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.slide-3 span {
+    color:  white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.slide-3 img {
+    height: 80px;
+    width: 80px;
+}
+
+img[alt="react"] {
+    height: 60px;
+    width: 60px;
+    background-color: #48b1ff;
+}
+img[alt="firebase"] {
+    height: 65px;
+    width: 65px;
+}
+
+.slide-3 div {
+    display: flex;
+    height: 20%;
+}
+
+.slide-4  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.slide-4 div {
+    display: flex;
+    height: 100%;
+}
+
+.slide-4 a {
+    color: white;
+    font-size: 2rem;
+    background-color:  #48b1ff;
+    border: 1px solid #48b1ff;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+}
+.slide-4 a:hover {
+    color: #48b1ff;
+    font-size: 2rem;
+    background-color:  white;
+    border: 1px solid white;
+    transition: 1s;
+}
+
+.technologies-1 img[alt="html"]{
+    animation: fadeIn ease 2s;
+}
+.technologies-1 img[alt="css"]{
+    animation: fadeIn ease 4s;
+}
+.technologies-1 img[alt="js"]{
+    animation: fadeIn ease 6s;
+}
+.technologies-1 img[alt="react"]{
+    animation: fadeIn ease 8s;
+}
+.technologies-2  img[alt="firebase"]{
+    animation-delay: 5s;
+    animation: fadeIn ease 2s;
+}
+.technologies-2  img[alt="mongo"]{
+    animation-delay: 5s;
+    animation: fadeIn ease 4s;
+}
+.technologies-2  img[alt="node"]{
+    animation-delay: 5s;
+    animation: fadeIn ease 6s;
+}
+.technologies-3 img[alt="sql"]{
+    animation-delay: 10s;
+    animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn{
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+.slide-4 span {
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
