@@ -81,19 +81,20 @@ h1 > span {
 }
 .tag {
     position: absolute;
-    display: inline-block;
+    left: 59.5%;
     font-size: 2rem;
     border-radius: 50%;
     background-color: white;
     bottom: 50.5%;
 }
-h1 > span:last-of-type {
-    color: white;
-    font-size: 4rem;
-    position: absolute;
-    left: 68.5%;
-    bottom: 49%;
+.tag i {
+    color: #48b1ff;
 }
+.icon-o {
+    font-size: 4rem;
+    color: transparent;
+}
+
 .meet-mee {
     color: white;
     font-size: 2rem;
