@@ -220,44 +220,82 @@ body{
     z-index: 9999;
 }
 
-/*.slide-3 {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    padding-top: 2%;*/
-/*}*/
-/*.slide-3 div {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    margin-bottom: 5%;*/
-/*}*/
-/*.slide-3 span {*/
-/*    color:  white;*/
-/*    font-size: 2.5rem;*/
-/*    font-weight: bold;*/
-/*    margin-left: 10%;*/
-/*}*/
+.slide-3 {
+    display: block;
+}
+.slide-3 div {
+    height: 100px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-3 p {
+    color:  white;
+    font-size: 1.2rem;
+    margin-left: 10%;
+}
 
-/*.slide-3 img {*/
-/*    height: 80px;*/
-/*    width: 80px;*/
-/*}*/
+.slide-3 img {
+    height: 60px;
+    width: 60px;
+}
 
-/*img[alt="react"] {*/
-/*    height: 60px;*/
-/*    width: 60px;*/
-/*    background-color: #48b1ff;*/
-/*}*/
-/*img[alt="firebase"] {*/
-/*    height: 65px;*/
-/*    width: 65px;*/
-/*}*/
+img[alt="react"] {
+    height: 45px;
+    width: 45px;
+    background-color: #48b1ff;
+}
+img[alt="firebase"] {
+    height: 45px;
+    width: 45px;
+}
+img[alt="node"] {
+    height: 50px;
+    width: 50px;
+}
 
-/*.slide-3 div {*/
-/*    display: flex;*/
-/*    height: 20%;*/
-/*}*/
+.slide-3 div {
+    display: flex;
+    height: 20%;
+}
+
+.technologies-1 img[alt="html"]{
+    animation: fadeIn ease 2s;
+}
+.technologies-1 img[alt="css"]{
+    animation: fadeIn ease 4s;
+}
+.technologies-1 img[alt="js"]{
+    animation: fadeIn ease 6s;
+}
+.technologies-1 img[alt="react"]{
+    animation: fadeIn ease 4s;
+}
+.technologies-2  img[alt="firebase"]{
+    animation-delay: 5s;
+    animation: fadeIn ease 2s;
+}
+.technologies-2  img[alt="mongo"]{
+    animation-delay: 5s;
+    animation: fadeIn ease 4s;
+}
+.technologies-2  img[alt="node"]{
+    animation-delay: 5s;
+    animation: fadeIn ease 6s;
+}
+.technologies-3 img[alt="sql"]{
+    animation-delay: 10s;
+    animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn{
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
 
 /*.slide-4  {*/
 /*    display: flex;*/
@@ -284,44 +322,6 @@ body{
 /*    background-color:  white;*/
 /*    border: 1px solid white;*/
 /*    transition: 1s;*/
-/*}*/
-
-/*.technologies-1 img[alt="html"]{*/
-/*    animation: fadeIn ease 2s;*/
-/*}*/
-/*.technologies-1 img[alt="css"]{*/
-/*    animation: fadeIn ease 4s;*/
-/*}*/
-/*.technologies-1 img[alt="js"]{*/
-/*    animation: fadeIn ease 6s;*/
-/*}*/
-/*.technologies-1 img[alt="react"]{*/
-/*    animation: fadeIn ease 8s;*/
-/*}*/
-/*.technologies-2  img[alt="firebase"]{*/
-/*    animation-delay: 5s;*/
-/*    animation: fadeIn ease 2s;*/
-/*}*/
-/*.technologies-2  img[alt="mongo"]{*/
-/*    animation-delay: 5s;*/
-/*    animation: fadeIn ease 4s;*/
-/*}*/
-/*.technologies-2  img[alt="node"]{*/
-/*    animation-delay: 5s;*/
-/*    animation: fadeIn ease 6s;*/
-/*}*/
-/*.technologies-3 img[alt="sql"]{*/
-/*    animation-delay: 10s;*/
-/*    animation: fadeIn ease 2s;*/
-/*}*/
-
-/*@keyframes fadeIn{*/
-/*    0% {*/
-/*        opacity:0;*/
-/*    }*/
-/*    100% {*/
-/*        opacity:1;*/
-/*    }*/
 /*}*/
 
 /*.slide-4 span {*/
