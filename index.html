@@ -2,63 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>AboutMe</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-        <div class="slider-outer">
-            <img src="images/arrow-left.png" alt="prev" class="prev">
-        <div class="slider-inner">
-            <div class="active slide-1">
-                <span class="tag"><i class="fas fa-code"></i></span>
-                <h1><span>D</span>orota<span>K</span><span class="icon-o">o</span>ra</h1>
-                <button class="meet-mee">About me...</button>
-            </div>
-            <div class="slide-2">
-                <p>I know finance and marketing</p>
-                <p>I am good team player</p>
-                <p>Programming it's my passion</p>
-                <p>I want to be a Front-end Developer</p>
-                <p>I have huge experience in sales</p>
-            </div>
-            <div class="slide-3">
-                <span>I am fascinated...</span>
-                <div class="technologies-1">
-                    <img src="images/html.png" alt="html">
-                    <img src="images/css.png" alt="css">
-                    <img src="images/js.png" alt="js">
-                    <img src="images/react.png" alt="react">
-                </div>
-                <span>I start learn...</span>
-                <div class="technologies-2">
-                    <img src="images/firebase.png" alt="firebase">
-                    <img src="images/mongo.png" alt="mongo">
-                    <img src="images/node.png" alt="node">
-                </div>
-                <span>I want learn...</span>
-                <div class="technologies-3">
-                    <img src="images/sql.png" alt="sql">
-                </div>
 
-            </div>
-            <div class="slide-4">
-                <span>Find mee on:</span>
-                <div>
-                    <a href="https://www.linkedin.com/in/dorota-kora">LinkedIn</a>
-                    <a href="https://github.com/dorotakora">GitHub</a>
+<!--Full page/viewport container-->
+<div class="main">
+    <!--Content centered-->
+    <div class=content>
+
+        <!--Navigation-->
+        <div class="arrow arrow-previous">&#8630;</div>
+        <div class="arrow arrow-next">&#8631;</div>
+<!--        <img src="images/arrow-left.png" alt="prev" class="prev">-->
+        <!--Page 1-->
+        <div class="page active slide-1">
+            <div class="page1-center">
+                <div class="page1-name">
+                    <span class="page1-name-sign"><i class="fas fa-code"></i></span>
+                    <h1><span>D</span>orota<span>K</span><span class="page1-name-letter">o</span>ra</h1>
+                </div>
+                <div class="page1-enter">
+                    <!--you are just one click away from meeting me-->
+                    click to meet me
                 </div>
             </div>
         </div>
-        <img src="images/arrow-right.png" alt="next" class="next">
+
+        <!--Page 2-->
+        <div class="page slide-2">
+            <p>I am a good team player</p>
+            <p>Know a lot about marketing and financial services</p>
+            <p>I have a significant experience in sales</p>
+            <p>I am fast learner</p>
+            <p>I am diligent and patient</p>
+            <p> I am open to future challenges</p>
+            <div class="lines">
+                <span id="line1"></span>
+                <span id="line2"></span>
+                <span id="line3"></span>
+                <p id="lines-p">BUT: I felt in love in programming and...</p>
+            </div>
+        </div>
+
+        <!--Page 3-->
+        <div class="page">
+            ...learned HTML, CSS, JS
+            <br>
+            now specialize in React
+            <br>
+            started to learn Firebase, MongoDB, NodeJS
+            <br>
+            planning to learn SQL and basics of C# or Python
+            <br>
+            I want to become a solid front-end developer!
+        </div>
+
+        <!--Page 4-->
+        <div class="page">
+            LinkedIn, GitHub
+        </div>
+<!--        <img src="images/arrow-right.png" alt="next" class="next">-->
     </div>
 </div>
 </body>
-<script
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"></script>
+<script src="//code.jquery.com/jquery-1.12.4.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!--<script-->
+<!--        src="https://code.jquery.com/jquery-3.4.1.min.js"-->
+<!--        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="-->
+<!--        crossorigin="anonymous"></script>-->
 <script src="app.js"></script>
 </html>
