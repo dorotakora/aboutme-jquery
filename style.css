@@ -185,13 +185,18 @@ body{
     left: 42%;
     bottom: 10%;
 }
-.lines #lines-p {
-    background-color:  transparent;
-    border: none;
+
+.slide-3 .lines {
+    left: 24%;
+}
+
+.lines .lines-p {
+    background-color:  transparent !important;
+    border: none !important;
     margin: 0;
 }
 
-.lines #line1 {
+.lines .line1 {
     width: 30%;
     display: flex;
     border-bottom: 1px solid rgba(46, 204, 113, 1);
@@ -201,7 +206,7 @@ body{
     z-index: 9999;
 }
 
-.lines #line2 {
+.lines .line2 {
     height: 100%;
     display: flex;
     border-left: 1px solid rgba(46, 204, 113, 1);
@@ -210,7 +215,7 @@ body{
     left: -5%;
     z-index: 9999;
 }
-.lines #line3 {
+.lines .line3 {
     height: 80%;
     display: flex;
     border-left: 1px solid rgba(46, 204, 113, 1);
@@ -223,42 +228,75 @@ body{
 .slide-3 {
     display: block;
 }
-.slide-3 div {
-    height: 100px !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.slide-3 p {
-    color:  white;
+
+.slide-3 p:last-child {
+    color:  rgba(46, 204, 113, 1);
     font-size: 1.2rem;
-    margin-left: 10%;
+    text-align: center;
 }
 
-.slide-3 img {
-    height: 60px;
-    width: 60px;
+.technologies-1 img, .technologies-4 img {
+    height: 80px;
+    width: 80px;
 }
 
 img[alt="react"] {
-    height: 45px;
-    width: 45px;
-    background-color: #48b1ff;
+    margin-left: 2%;
+    height: 58px;
+    width: 58px;
 }
-img[alt="firebase"] {
-    height: 45px;
-    width: 45px;
-}
-img[alt="node"] {
+
+.technologies-3 img {
+    margin-left: 4%;
     height: 50px;
     width: 50px;
 }
-
-.slide-3 div {
-    display: flex;
-    height: 20%;
+img[alt="node"] {
+    margin-left: 0.5%;
+    height: 42px;
+    width: 80px;
+}
+img[alt="firebase"] {
+    margin-right: 2%;
+    height: 28px;
+    width: 70px;
+}
+img[alt="c"] {
+    margin-right: 2%;
+    height: 70px;
+    width: 70px;
 }
 
+.technologies-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 9%;
+    margin-left: 6%;
+}
+.technologies-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 3%;
+    margin-right: 6%;
+}
+
+.technologies-3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+.technologies-4{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 3%;
+    margin-right: 3%;
+}
 .technologies-1 img[alt="html"]{
     animation: fadeIn ease 2s;
 }
@@ -268,24 +306,30 @@ img[alt="node"] {
 .technologies-1 img[alt="js"]{
     animation: fadeIn ease 6s;
 }
-.technologies-1 img[alt="react"]{
+.technologies-1 img[alt="jquery"]{
+    animation: fadeIn ease 8s;
+}
+
+.technologies-2 img[alt="react"]{
     animation: fadeIn ease 4s;
 }
-.technologies-2  img[alt="firebase"]{
-    animation-delay: 5s;
+
+.technologies-3  img[alt="firebase"]{
     animation: fadeIn ease 2s;
 }
-.technologies-2  img[alt="mongo"]{
-    animation-delay: 5s;
+.technologies-3  img[alt="mongo"]{
     animation: fadeIn ease 4s;
 }
-.technologies-2  img[alt="node"]{
-    animation-delay: 5s;
+.technologies-3  img[alt="node"]{
     animation: fadeIn ease 6s;
 }
-.technologies-3 img[alt="sql"]{
-    animation-delay: 10s;
-    animation: fadeIn ease 2s;
+
+.technologies-4 img[alt="sql"]{
+
+    animation: fadeIn ease 4s;
+}
+.technologies-4 img[alt="c"]{
+    animation: fadeIn ease 6s;
 }
 
 @keyframes fadeIn{
@@ -297,38 +341,22 @@ img[alt="node"] {
     }
 }
 
-/*.slide-4  {*/
-/*    display: flex;*/
-/*    justify-content: space-around;*/
-/*    align-items: center;*/
-/*}*/
-/*.slide-4 div {*/
-/*    display: flex;*/
-/*    height: 100%;*/
-/*}*/
+.slide-4  {
+    display: flex;
+    flex-direction: column;
+}
 
-/*.slide-4 a {*/
-/*    color: white;*/
-/*    font-size: 2rem;*/
-/*    background-color:  #48b1ff;*/
-/*    border: 1px solid #48b1ff;*/
-/*    border-radius: 5px;*/
-/*    margin: auto;*/
-/*    padding: 10px;*/
-/*}*/
-/*.slide-4 a:hover {*/
-/*    color: #48b1ff;*/
-/*    font-size: 2rem;*/
-/*    background-color:  white;*/
-/*    border: 1px solid white;*/
-/*    transition: 1s;*/
-/*}*/
-
-/*.slide-4 span {*/
-/*    font-size: 2.5rem;*/
-/*    font-weight: bold;*/
-/*    position: absolute;*/
-/*    top: 30%;*/
-/*    left:50%;*/
-/*    transform: translate(-50%, -50%);*/
-/*}*/
+.slide-4 p {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.slide-4 img[alt="linkedin"] {
+    margin-top: 30px;
+    width: 60px;
+    height: 60px;
+}
+.slide-4 img[alt='github'] {
+    margin: 10px;
+    width: 130px;
+    height: 40px;
+}
