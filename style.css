@@ -18,14 +18,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .content {
     position: relative;
     color: white;
-    width: 60vw;
-    height: 60vh;
+    width: 75vw;
+    height: 75vh;
     background-color: rgba(0, 0, 0, 0.85);
 }
 .arrow-previous {
@@ -87,7 +87,6 @@ body{
 .page1-name-sign {
     position: absolute;
     left: 69.5%;
-    font-size: 2rem;
     border-radius: 50%;
     background-color: white;
     bottom: 36%;
@@ -96,33 +95,51 @@ body{
     color: rgba(46, 204, 113, 1);
 }
 .page1-name-letter {
-    font-size: 4rem;
     color: transparent;
 }
 
-.slide-2 p {
-    font-size: 1rem;
-    display: inline-block;
-    padding: 5px;
+
+
+
+
+.slide-2 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
-.slide-2 p:nth-of-type(1) {
+.slide-2 p {
+    display: inline-block;
+    padding: 10px;
+}
+
+.slide-2 p:first-child {
     color: rgba(46, 204, 113, 1);
     background-color:  white;
     border: 1px solid rgba(46, 204, 113, 1);
+    position: absolute;
+    left: 13em;
+    transform: scale(0);
     animation-duration: 1s;
-    animation-name: slideIn;
+    animation-name: slideIn1;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
+
 
 .slide-2 p:nth-of-type(2) {
     color: white;
     background-color:  rgba(46, 204, 113, 1);
     border: 1px solid white;
     position: absolute;
-    left: 15%;
+    left: 25%;
     top: 28%;
+    transform: scale(0);
     animation-duration: 2s;
-    animation-name: slideIn;
+    animation-name: slideIn1;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
 }
 
 .slide-2 p:nth-of-type(3) {
@@ -132,8 +149,11 @@ body{
     position: absolute;
     left: 12%;
     bottom: 22%;
+    transform: scale(0);
     animation-duration: 3s;
-    animation-name: slideIn;
+    animation-name: slideIn1;
+    animation-delay: 1.4s;
+    animation-fill-mode: forwards;
 }
 
 .slide-2 p:nth-of-type(4) {
@@ -143,8 +163,11 @@ body{
     position: absolute;
     left: 5%;
     top: 10%;
+    transform: scale(0);
     animation-duration: 2s;
-    animation-name: slideIn;
+    animation-name: slideIn1;
+    animation-delay: 1.6s;
+    animation-fill-mode: forwards;
 }
 
 .slide-2 p:nth-of-type(5) {
@@ -154,8 +177,11 @@ body{
     position: absolute;
     right: 15%;
     top: 3%;
+    transform: scale(0);
     animation-duration: 2s;
-    animation-name: slideIn;
+    animation-name: slideIn1;
+    animation-delay: 1.8s;
+    animation-fill-mode: forwards;
 }
 .slide-2 p:nth-of-type(6) {
     color: rgba(46, 204, 113, 1);
@@ -163,31 +189,35 @@ body{
     border: 1px solid white;
     position: absolute;
     right: 13%;
-    bottom: 32%;
+    bottom: 37%;
+    transform: scale(0);
     animation-duration: 2s;
-    animation-name: slideIn;
+    animation-name: slideIn1;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
 }
 
-@keyframes slideIn {
-    from {
-        margin-left: 100%;
-        width: 300%;
+@keyframes slideIn1 {
+    0% {
+        transform: scale(0.2);
     }
-    to {
-        margin-left: 0;
-        width: 100%;
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
     }
 }
+
+
+
+
 
 .lines {
     color: rgba(46, 204, 113, 1);
     position: absolute;
     left: 42%;
     bottom: 10%;
-}
-
-.slide-3 .lines {
-    left: 24%;
 }
 
 .lines .lines-p {
@@ -225,121 +255,9 @@ body{
     z-index: 9999;
 }
 
-.slide-3 {
-    display: block;
-}
 
-.slide-3 p:last-child {
-    color:  rgba(46, 204, 113, 1);
-    font-size: 1.2rem;
-    text-align: center;
-}
 
-.technologies-1 img, .technologies-4 img {
-    height: 80px;
-    width: 80px;
-}
 
-img[alt="react"] {
-    margin-left: 2%;
-    height: 58px;
-    width: 58px;
-}
-
-.technologies-3 img {
-    margin-left: 4%;
-    height: 50px;
-    width: 50px;
-}
-img[alt="node"] {
-    margin-left: 0.5%;
-    height: 42px;
-    width: 80px;
-}
-img[alt="firebase"] {
-    margin-right: 2%;
-    height: 28px;
-    width: 70px;
-}
-img[alt="c"] {
-    margin-right: 2%;
-    height: 70px;
-    width: 70px;
-}
-
-.technologies-1 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 9%;
-    margin-left: 6%;
-}
-.technologies-2 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: 3%;
-    margin-right: 6%;
-}
-
-.technologies-3 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 3%;
-    margin-left: 6%;
-}
-
-.technologies-4{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: 3%;
-    margin-right: 3%;
-}
-.technologies-1 img[alt="html"]{
-    animation: fadeIn ease 2s;
-}
-.technologies-1 img[alt="css"]{
-    animation: fadeIn ease 4s;
-}
-.technologies-1 img[alt="js"]{
-    animation: fadeIn ease 6s;
-}
-.technologies-1 img[alt="jquery"]{
-    animation: fadeIn ease 8s;
-}
-
-.technologies-2 img[alt="react"]{
-    animation: fadeIn ease 4s;
-}
-
-.technologies-3  img[alt="firebase"]{
-    animation: fadeIn ease 2s;
-}
-.technologies-3  img[alt="mongo"]{
-    animation: fadeIn ease 4s;
-}
-.technologies-3  img[alt="node"]{
-    animation: fadeIn ease 6s;
-}
-
-.technologies-4 img[alt="sql"]{
-
-    animation: fadeIn ease 4s;
-}
-.technologies-4 img[alt="c"]{
-    animation: fadeIn ease 6s;
-}
-
-@keyframes fadeIn{
-    0% {
-        opacity:0;
-    }
-    100% {
-        opacity:1;
-    }
-}
 
 .slide-4  {
     display: flex;
@@ -350,13 +268,136 @@ img[alt="c"] {
     font-size: 2.5rem;
     font-weight: bold;
 }
-.slide-4 img[alt="linkedin"] {
-    margin-top: 30px;
-    width: 60px;
-    height: 60px;
+
+.slide-4 div {
+    display: flex;
+    height: 4em;
+    justify-content: center;
 }
-.slide-4 img[alt='github'] {
-    margin: 10px;
-    width: 130px;
-    height: 40px;
+
+.slide-4 div div {
+    display: inline-block;
+    height: 100%;
+    padding: 0 1em;
+}
+
+.slide-4 div div img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+
+
+.slide-3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blockline {
+    display: block;
+    height: 20%;
+    width: 100%;
+}
+
+.flexline {
+    width: 100%;
+    height: 100%;
+    padding: 1em 3em 1em 3em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.blockline:nth-of-type(1) .flexline { justify-content: flex-start; }
+.blockline:nth-of-type(1) .flexline div img { transform: scale(1.5) }
+.blockline:nth-of-type(2) .flexline { justify-content: flex-end; }
+.blockline:nth-of-type(3) .flexline { justify-content: flex-start; }
+.blockline:nth-of-type(3) .flexline div img[alt="firebase"] { transform: scale(0.8); }
+.blockline:nth-of-type(3) .flexline div img[alt="node"] { transform: scale(0.9) translate(-1.5em); }
+.blockline:nth-of-type(4) .flexline { justify-content: flex-end; }
+.blockline:nth-of-type(4) .flexline div img { transform: scale(1.5) }
+.blockline:nth-of-type(5) .flexline { justify-content: center; }
+.blockline:nth-of-type(5) .flexline p { color: rgba(46, 204, 113, 1); font-size: 1.25em; }
+
+
+
+.flexline div {
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.flexline div img {
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0;
+    animation-duration: 4s;
+    animation-name: fadeIn;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.line-container {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.line-container .lines {
+    color: rgba(46, 204, 113, 1);
+    left: 1em;
+    bottom: 2em;
+    /*background-color: darkred;*/
+}
+
+.line-container .lines .lines-p {
+    background-color:  transparent !important;
+    border: none !important;
+    margin: 0;
+}
+
+.line-container .lines .line1 {
+    width: 30%;
+    display: flex;
+    border-bottom: 1px solid rgba(46, 204, 113, 1);
+    position: absolute;
+    bottom: 0;
+    left: -12%;
+    z-index: 9999;
+}
+
+.line-container .lines .line2 {
+    height: 100%;
+    display: flex;
+    border-left: 1px solid rgba(46, 204, 113, 1);
+    position: absolute;
+    bottom: -35%;
+    left: -7%;
+    z-index: 9999;
+}
+.line-container .lines .line3 {
+    height: 80%;
+    display: flex;
+    border-left: 1px solid rgba(46, 204, 113, 1);
+    position: absolute;
+    bottom: -37%;
+    left: -5%;
+    z-index: 9999;
 }

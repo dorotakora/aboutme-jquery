@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05f5d7ec-a8d2-41e8-bc85-049cc35f1984" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/jquery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/linkedin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/css.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/css.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/firebase.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/firebase.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/html.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/html.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/js.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/js.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/node.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/node.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/react.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/react.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sql.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/sql.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -27,14 +15,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3461006">
+    <splitter split-orientation="horizontal" split-proportion="0.4446461">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="448">
-                  <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+                <state relative-caret-position="848">
+                  <caret line="103" column="110" lean-forward="true" selection-start-line="103" selection-start-column="110" selection-end-line="103" selection-end-column="110" />
+                  <folding>
+                    <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="e#2658#2664#0" expanded="true" />
+                    <element signature="e#4446#4452#0" expanded="true" />
+                    <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="e#4891#4897#0" expanded="true" />
+                    <element signature="e#5161#5167#0" expanded="true" />
+                    <element signature="e#5233#5239#1" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -42,17 +42,18 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.5">
+        <splitter split-orientation="horizontal" split-proportion="0.82468694">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/style.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="336">
-                      <caret line="347" selection-start-line="347" selection-end-line="347" />
+                    <state relative-caret-position="792">
+                      <caret line="387" column="18" lean-forward="true" selection-start-line="387" selection-start-column="18" selection-end-line="387" selection-end-column="18" />
                       <folding>
                         <element signature="e#110#87962#0" />
                         <element signature="e#165#87703#1" expanded="true" />
+                        <element signature="e#90948#91095#0" />
                       </folding>
                     </state>
                   </provider>
@@ -65,7 +66,7 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="1326">
+                    <state relative-caret-position="2950">
                       <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
                     </state>
                   </provider>
@@ -90,6 +91,8 @@
     <findStrings>
       <find>acti</find>
       <find>next</find>
+      <find>a</find>
+      <find>lines-p</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,7 +114,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="135" />
-    <option name="width" value="2535" />
+    <option name="width" value="3463" />
     <option name="height" value="1534" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -217,22 +220,22 @@
       <updated>1562662686288</updated>
       <workItem from="1562662687473" duration="41536000" />
       <workItem from="1562738538261" duration="15733000" />
-      <workItem from="1562767876128" duration="9929000" />
+      <workItem from="1562767876128" duration="26229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67198000" />
+    <option name="totallyTimeSpent" value="83498000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="135" y="0" width="2535" height="1534" extended-state="0" />
+    <frame x="135" y="0" width="3463" height="1534" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16799363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.038953487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3292595" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292595" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3292595" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -240,7 +243,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33524767" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3350108" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -274,25 +277,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
+        <state relative-caret-position="2950">
           <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+        <state relative-caret-position="848">
+          <caret line="103" column="110" lean-forward="true" selection-start-line="103" selection-start-column="110" selection-end-line="103" selection-end-column="110" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2658#2664#0" expanded="true" />
+            <element signature="e#4446#4452#0" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4891#4897#0" expanded="true" />
+            <element signature="e#5161#5167#0" expanded="true" />
+            <element signature="e#5233#5239#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="347" selection-start-line="347" selection-end-line="347" />
+        <state relative-caret-position="792">
+          <caret line="387" column="18" lean-forward="true" selection-start-line="387" selection-start-column="18" selection-end-line="387" selection-end-column="18" />
           <folding>
             <element signature="e#110#87962#0" />
             <element signature="e#165#87703#1" expanded="true" />
+            <element signature="e#90948#91095#0" />
           </folding>
         </state>
       </provider>
